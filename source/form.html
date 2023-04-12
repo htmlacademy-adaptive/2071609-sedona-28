@@ -4,34 +4,33 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
-  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="index.html">
-      <img src="img/logotype-city-of-sedona.svg" width="185" height="96" alt="City of Sedona">
+      <img src="#" width="185" height="96" alt="City of Sedona">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
-        <ul class="main-nav__list page-list">
-          <li class="page-list__item">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
             <a href="index.html">
               Главная
             </a>
           </li>
-          <li class="page-list__item">
+          <li class="main-nav__item">
             <a href="catalog.html">
               Фото и видео
             </a>
           </li>
-          <li class="page-list__item paged-list__item--active">
+          <li class="main-nav__item main-nav__item--active">
             <a>
               Форма Отзыва
             </a>
           </li>
-          <li class="page-list__item">
+          <li class="main-nav__item">
             <a href="https://htmlacademy.ru/intensive/adaptive">
               HTML Academy
             </a>
@@ -117,20 +116,20 @@
             <span>Красные скалы</span>
           </label>
         </fieldset>
+        <section class="your-emotions">
+          <h2 class="title">
+            Опишите свои эмоции:
+          </h2>
+          <label>
+            <textarea name="comment" cols="25" rows="5">Опишите подробно все свои восторги </textarea>
+          </label>
+          <button type="submit" class="button order__button">отправить отзыв</button>
+          <p class="order__required">
+            * — обязательные поля
+          </p>
+        </section>
       </form>
     </div>
-    <section class="your-emotions">
-      <h2 class="your-emotions__slogan">
-        Опишите свои эмоции:
-      </h2>
-      <label>
-        <textarea name="comment" cols="25" rows="5">Опишите подробно все свои восторги </textarea>
-      </label>
-      <button type="submit" class="button order__button">отправить отзыв</button>
-      <p class="order__required">
-        * — обязательные поля
-      </p>
-    </section>
   </main>
   <footer class="main-footer">
     <div class="main-footer__wrapper">
